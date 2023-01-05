@@ -1,0 +1,376 @@
+<!DOCTYPE html>
+<html>
+<head>
+<title>DS2001</title>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<link rel="stylesheet" href="https://www.w3schools.com/w3css/4/w3.css">
+<link rel="stylesheet" href="https://www.w3schools.com/lib/w3-theme-black.css">
+<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+</head>
+
+<body id="myPage">
+
+<!-- Navbar -->
+<div class="w3-top">
+ <div class="w3-bar w3-theme-d2 w3-left-align">
+  <a class="w3-bar-item w3-button w3-hide-medium w3-hide-large w3-right w3-hover-white w3-theme-d2" href="javascript:void(0);" onclick="openNav()"><i class="fa fa-bars"></i></a>
+  <a href="#" class="w3-bar-item w3-button w3-teal"><i class="fa fa-home w3-margin-right"></i>DS2001 S23</a>
+  <a href="#office-hours" class="w3-bar-item w3-button w3-hide-small w3-hover-white">Office Hours</a>
+  <a href="#schedule" class="w3-bar-item w3-button w3-hide-small w3-hover-white">Schedule</a>
+  <a href="#overview" class="w3-bar-item w3-button w3-hide-small w3-hover-white">Overview</a>
+  <div class="w3-dropdown-hover w3-hide-small">
+    <button class="w3-button" title="Notifications">Practicums<i class="fa fa-caret-down"></i></button>     
+    <div class="w3-dropdown-content w3-card-4 w3-bar-block">
+      <a href="practicums/p0.pdf" target="_blank" class="w3-bar-item w3-button">p0</a>
+    </div>
+  </div>
+  <div class="w3-dropdown-hover w3-hide-small">
+    <button class="w3-button" title="Notifications">Projects<i class="fa fa-caret-down"></i></button>     
+    <div class="w3-dropdown-content w3-card-4 w3-bar-block">
+      <!-- <a href="assignments/project/pm-01.pdf" target="_blank" class="w3-bar-item w3-button">pm-01</a-->
+    </div>
+  </div>
+  <div class="w3-dropdown-hover w3-hide-small">
+    <button class="w3-button" title="Notifications">Links<i class="fa fa-caret-down"></i></button>     
+    <div class="w3-dropdown-content w3-card-4 w3-bar-block">
+      <a href="https://www.gradescope.com/courses/482506" target="_blank" class="w3-bar-item w3-button">Gradescope</a>
+      <a href="https://piazza.com/class/lcj57tb4avv37z/" target="_blank" class="w3-bar-item w3-button">Piazza</a>
+      <a href="https://northeastern.instructure.com/courses/133150" target="_blank" class="w3-bar-item w3-button">Canvas</a>
+    </div>
+  </div>
+ </div>
+</div>
+
+<!-- Office Hours Container -->
+<div class="w3-container w3-padding-64 w3-center" id="office-hours">
+<h2 class="w3-left-align">Instructors and Office Hours</h2>
+
+<div class="w3-row">
+
+<div class="w3-half">
+  <img src="img/ab.png" alt="Boss" style="width:45%" class="w3-circle">
+  <h4>Dr. Ab Mosca <span class="w3-opacity">(they/them)</span></h4>
+</div>
+
+<div class="w3-third w3-left-align">
+  <h4>Contact</h4>
+  <p>a.mosca@northeastern.edu</p>
+  <p>Please email for private matters, and use the course <a href="https://piazza.com/class/lcj57tb4avv37z/" target="_blank">Piazza</a> for content questions</p>
+  <h4>Office Hours</h4>
+  <p>By appointment through <a href="https://calendly.com/aemosca/officehours" target="_blank">Calendly</a> (Note: you must book at least 1 hour in advance)</p>
+  <p>You are welcome to come to office hours with course content questions, questions about data/computer science, questions about research, or just to chat!</p>
+</div>
+
+</div>
+
+
+<!-- Schedule Container-->
+<div class="w3-container w3-padding-24 w3-center" id="schedule">
+<h2 class="w3-left-align">Course Schedule</h2>
+<p class="w3-left-align">(subject to change as needed)</p>
+<p class="w3-left-align"><b>Note:</b> 
+  <ul class="w3-left-align">
+    <li>Practicum assignments are due at the end of class</li>
+    <li>Practicum assignments are graded on effort and thoughtful completion of a reflection</li>
+    <li>It is okay if you do not finish the entire practicum assignment in class; we are looking for consistent effort and a thoughtful reflection!</li>
+  </ul>
+</p>
+
+<div class="w3-content" style="width:90%">
+<table class="w3-table w3-striped w3-bordered w3-border">
+  <thead class="w3-teal">
+    <th>Week</th><th>Dates</th><th>Topic</th><th>Assignment OUT</th><th>Assignment DUE</th>
+  </thead>
+
+  <tr>
+    <td>1</td><td>01/11/23 & 01/12/2023</td>
+    <td>
+      Setting up
+    </td>
+    <td>
+      <a href="practicums/p0.pdf" target="_blank">Practicum 0 </a>
+    </td>
+    <td>
+      Practicum 0 
+    </td>
+  </tr>
+  <tr>
+    <td>2</td><td>01/18/23 & 01/19/2023</td>
+    <td>
+    </td>
+    <td>
+      Practicum 1
+    </td>
+    <td>
+      Practicum 1
+    </td>
+  </tr>
+  <tr>
+    <td>3</td><td>01/25/23 & 01/26/2023</td>
+    <td>
+    </td>
+    <td>
+      Practicum 2
+    </td>
+    <td>
+      Practicum 2
+    </td>
+  </tr>
+  <tr>
+    <td>4</td><td>02/01/23 & 02/02/2023</td>
+    <td>
+    </td>
+    <td>
+      Practicum 3 
+      <br>
+      Project 1
+    </td>
+    <td>
+      Practicum 3
+    </td>
+  </tr>
+  <tr>
+    <td>5</td><td>02/08/23 & 02/09/2023</td>
+    <td>
+      Work on Project 1 
+    </td>
+    <td>
+    </td>
+    <td>
+      Project 1
+    </td>
+  </tr>
+  <tr>
+    <td>6</td><td>02/15/23 & 02/16/2023</td>
+    <td>
+      Project 1 Presentations 
+    </td>
+    <td>
+      Practicum 4
+    </td>
+    <td>
+      Practicum 4
+    </td>
+  </tr>
+  <tr>
+    <td>7</td><td>02/22/23 & 02/23/2023</td>
+    <td>
+    </td>
+    <td>
+      Practicum 5
+    </td>
+    <td> 
+      Practicum 5
+    </td>
+  </tr>
+  <tr>
+    <td>8</td><td>03/01/23 & 03/02/2023</td>
+    <td>
+    </td>
+    <td>
+      Practicum 6
+      <br>
+      Project 2 
+    </td>
+    <td>
+      Practicum 6
+      <br>
+      Project 2 Proposal 
+    </td>
+  </tr>
+  <tr class="w3-pale-green">
+    <td>9</td><td>03/08/23 & 03/09/2023</td>
+    <td style="font-style:italic;">
+      No Class - Spring Break
+    </td>
+    <td>
+    </td>
+    <td>
+    </td>
+  </tr>
+  <tr class="w3-pale-green">
+    <td>10</td><td>03/15/23 & 03/16/2023</td>
+    <td style="font-style:italic;">
+      No Class - Ab at SIGCSE 
+    </td>
+    <td>
+    </td>
+    <td>
+    </td>
+  </tr>
+  <tr>
+    <td>11</td><td>03/22/23 & 03/23/2023</td>
+    <td>
+      Project 2 Proposal Feedback
+    </td>
+    <td>
+      Practicum 7 
+    </td>
+    <td>
+      Practicum 7 
+    </td>
+  </tr>
+  <tr>
+    <td>12</td><td>03/29/23 & 03/30/2023</td>
+    <td>
+      Work on Project 2
+    </td>
+    <td>
+    </td>
+    <td>
+    </td>
+  </tr>
+  <tr>
+    <td>13</td><td>04/05/23 & 04/06/2023</td>
+    <td>
+      Work on Project 2 
+    </td>
+    <td> 
+    </td>
+    <td>
+    </td>
+  </tr>
+  <tr class="w3-pale-blue">
+    <td>14</td><td>04/12/23 & 04/13/2023</td>
+    <td>
+      Project 2 Presentations 
+    </td>
+    <td> 
+    </td>
+    <td>
+    </td>
+  </tr>
+  <tr class="w3-pale-blue">
+    <td>15</td><td>04/19/23</td>
+    <td>
+      Project 2 Presentations 
+    </td>
+    <td>
+    </td>
+    <td>
+      Project 2
+    </td>
+  </tr>
+</table>
+</div>
+
+</div>
+
+<!-- Overview Container -->
+<div class="w3-container w3-padding-24 w3-left-align" id="overview">
+<h2>Course Overview and Policies</h2>
+
+<h3>Description</h3>
+<p>This course is a co-requisite of DS200: Programming with Data. In DS200 you will learn programming concepts. In this class, we will practice applying those concepts within the domain of Computer Science (CS).</p>
+
+<p>Most weeks, you will come to practicum and work in pairs to complete a lab assignment that focuses on writing a program using the concepts you learned in DS2000 the prior and current week. We expect you to come to practicum ready to put in an honest effort, but we DO NOT expect you to work on practicum practicums outside of class time. More details on this and how it relates to grading are below.</p>   
+
+<p class="w3-text-red">Can’t make it to class because of illness or another unforeseen reason? <a href="https://forms.gle/D2QsX6rHk8DaLEZQ9" target="_blank">Fill out this form.</a></p>
+
+<h3>Assignments</h3>
+
+<p>All assignments will be submitted through Gradescope: <a href="https://www.gradescope.com/courses/482506">https://www.gradescope.com/courses/482506</a></p>
+
+<p>We have two types of assignments in this class: practicums and projects.</p>
+
+<h3>Practicums</h3>
+<p>Most weeks you will work with a partner to complete a practicum during your scheduled class time. Practicums are designed to have you program with concepts that were covered in DS2000 lecture the prior week(s).</p> 
+
+<p>We expect your best effort on practicums, however you may not finish every problem every week. That’s okay; you will not be graded on your code. Instead, you will be graded on a self-reflection that you will turn in with your code. For all practicums, you will receive full credit if you submit your self-reflection (with thoughtful answers)  and any code by the assignment deadline. All questions in the self-reflection must be answered for full credit.</p>  
+
+<p>We will provide feedback on your code if requested in your self-reflection. Otherwise, we will not look at your code. Our feedback will mirror the expectations of your DS200 homeworks, and we will use the same criteria for grading your projects in DS2001. So, make sure you ask for feedback when helpful, and read our notes!</p>  
+
+<h3>Projects</h3>
+<p>You will complete two projects for this class. One will be a smaller project, midway through the semester, and the other will be a larger project at the end of the semester. For both projects, you will present your work. You will be graded on the technical aspects of your projects and your presentation. Please see the full project specs for more details.</p>
+
+<h3>Late Policy</h3>
+<p>All assignments are due as listed on the <a href="#schedule">Course Schedule</a>.</p>
+
+<p>We will drop your lowest practicum from your final grade calculation (your review of another group’s presentation, which counts as a practicum grade, will not be dropped). This means you can miss one practicum with no penalty, except for the peer review.</p> 
+
+<p>If you need additional accommodations beyond this, please contact Ab so that we can figure out a reasonable time for you to turn in the practicum you miss. Barring extenuating circumstances (serious illness, family emergencies, etc.) we will expect you to complete and turn in your practicum by the same time you would if you were in class.</p>  
+
+<p>We expect you to submit your practicum assignments during your scheduled class time, but the final deadline each week is Thursday at 8pm ET. We’ve also built a short buffer into gradescope, so we will still accept a submission up until 11pm with no penalty.</p>
+
+<h3>Regrades</h3>
+<p>If you would like an assignment re-graded (for example, if you forgot to submit a file or submitted the wrong file by accident) please speak with Ab.</p>
+
+<h4>Final Grades</h4>
+<p>Your grade for DS2001 will be completely separate from your final grade for DS2000. It will be a weighted average between your practicums and projects: 60% practicums, 10% project 1, and 30% project 2.</p> 
+
+<p>We will round decimals to the nearest whole number and assign letter grades as follows:</p>
+
+<div class="w3-row">
+  <div class="w3-half"><img src="img/number_grades.png" style="width: 100%; max-width:550px;"></div>      
+</div>
+
+<h3>Classroom Conduct</h3>
+<p>All students and teaching staff are expected to treat each other with fairness, kindness, and consideration. This includes when providing critical feedback. Constructive criticism makes us better visualization designers, cruel and derogatory remarks are unacceptable.</p>
+
+<h3>Academic Integrity</h3>
+<p>While students are encouraged to discuss course materials, no plagiarism/copying is allowed. In particular:
+  <ul>
+    <li>You may not copy anyone else's text, source code, images, videos, visualization designs, or slides under any circumstances. This includes online sources.</li>
+    <li>You may not permit any other student to see any part of your program or writing assignment.</li>
+    <li>You may not permit yourself to see any part of another student's program or writing assignment.</li>
+  </ul></p>
+
+<p>You may consult online resources as part of your coursework, but you may not copy code from online sources. If you get an idea of how to solve a problem from an online source, include a citation in a code block at the top of your script. Ex.:</p>
+
+<div class="w3-example">
+<div class="w3-code python notranslate">
+'''<br>
+DS2001<br>
+Practicum 2<br>
+MyName<br>
+Consulted stackoverflow for rounding:  
+https://stackoverflow.com/questions/20457038/how-to-round-to-2-decimals-with-python 
+<br>
+'''
+</div>
+</div>
+
+<p>You do not need to include a similar notation if you consulted with a classmate; we expect that. Just don't share code.</p>
+<p>If you have a question about what is considered a violation of this policy, please ask!</p>
+<p>You can find the university's academic integrity policy here: <a href="http://www.northeastern.edu/osccr/academic-integrity" target="_blank">http://www.northeastern.edu/osccr/academic-integrity</a>.</p> 
+
+<h3>Title IX</h3>
+<p>Title IX of the Education Amendments of 1972 protects individuals from sex or gender-based discrimination, including discrimination based on gender-identity, in educational programs and activities that receive federal financial assistance.</p>
+<p>Northeastern’s Title IX Policy prohibits Prohibited Offenses, which are defined as sexual harassment, sexual assault, relationship or domestic violence, and stalking. The Title IX Policy applies to the entire community, including students, faculty and staff of all gender identities.</p>
+<p>If you or someone you know has been a survivor of a Prohibited Offense, confidential support and guidance can be found through the <a href="http://www.northeastern.edu/uhcs/" target="_blank">University Health and Counseling Services</a> staff and the <a href="http://www.northeastern.edu/spirituallife/" target="_blank">Center for Spiritual Dialogue and Service</a> clergy members. By law, those employees are not required to report allegations of sex or gender-based discrimination to the University.</p>
+<p>Alleged violations can be reported non-confidentially to the Title IX Coordinator within The Office for Gender Equity and Compliance at: titleix@northeastern.edu and/or through NUPD (Emergency 617.373.3333; Non-Emergency 617.373.2121). Reporting Prohibited Offenses to NUPD does NOT commit the victim/affected party to future legal action.</p>
+<p>Faculty members are considered “responsible employees” at Northeastern University, meaning they are required to report all allegations of sex or gender-based discrimination to the Title IX Coordinator.</p>
+<p><b>Please visit <a href="www.northeastern.edu/ouec" target="_blank">www.northeastern.edu/ouec</a> for a complete list of reporting options and resources both on- and off-campus.</b></p>
+
+<h3>Students with Disabilities</h3>
+<p>Students with disabilities who wish to receive academic services and/or accommodations should visit the <a href="http://www.northeastern.edu/drc" target="_blank">Disability Resource Center</a> at 20 Dodge Hall or call (617) 373-2675. If you have already done so, please provide your letter from the DRC to Ab early in the semester so they can arrange accommodations.</p>
+
+<h3>A note to all students</h3>
+<p>I (Ab) am here to support you. If at any point in the semester you realize there is something I could do to better support you, please reach out. This can be something as small as letting me know I am not making the font big enough on my presentations, to sharing that you need some help getting caught up after a hard day or week.</p>
+<p>Please be respectful of your classmates and instructor's wellbeing. <b class="w3-text-red">You should not come to class if you are not feeling well.</b> This includes COVID symptoms, and symptoms of non-COVID illnesses. If you need to miss class, I will work with you to stay caught up.</p> 
+
+</div>
+
+
+<!-- Footer -->
+<footer class="w3-container w3-padding-32 w3-theme-d1 w3-center">
+  <p>Powered by <a href="https://www.w3schools.com/w3css/default.asp" target="_blank">w3.css</a></p>
+
+  <div style="position:relative;bottom:100px;z-index:1;" class="w3-tooltip w3-right">
+    <span class="w3-text w3-padding w3-teal w3-hide-small">Go To Top</span>   
+    <a class="w3-button w3-theme" href="#myPage"><span class="w3-xlarge">
+    <i class="fa fa-chevron-circle-up"></i></span></a>
+  </div>
+</footer>
+
+<script src="libs/w3codecolor.js"></script>
+
+<script>
+  w3CodeColor();
+</script>
+
+
+
+</body>
+</html>
