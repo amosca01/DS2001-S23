@@ -107,11 +107,6 @@ def main():
     # declare ab's fave
     ab_fave = [["Cracklin' Oat Bran", "K", "C", 110, 3, 3, 140, 4, 10, 7, 160, 25, 3, 1, 0.5, 40.448772]]
     
-    ab_sub = subset_data(ab_fave, NAME_IND, PROTEIN_IND, FAT_IND)
-    subset = subset_data(data, NAME_IND, PROTEIN_IND, FAT_IND)
-    ans = find_closest(ab_sub, subset)
-    print("******", ans)
-    
     # sodium and fiber
     ab_sub = subset_data(ab_fave, NAME_IND, SODIUM_IND, FIBER_IND)
     subset = subset_data(data, NAME_IND, SODIUM_IND, FIBER_IND)
